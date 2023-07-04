@@ -54,7 +54,7 @@ int main (int argc, char *argv[]) {
                 if (strcmp(jugadores[i].nombre,nombre_jugador) == 0 )
                 {
                      encontrado = 1;
-                     printf("la edad del jugador es %d y su altura %2.f\n"
+                     printf("la edad del jugador es %d y su altura %.2f\n"
                                     ,jugadores[i].edad,jugadores[i].altura);
                 }    
             }
