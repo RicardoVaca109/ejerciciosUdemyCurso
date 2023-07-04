@@ -7,7 +7,7 @@ int main (int argc, char *argv[]) {
     scanf("%d",&numero); 
 
     FILE *f;
-    f  = fopen("tabla.txt","w");
+    f  = fopen("tablaprac19.txt","w");
     for (int i = 0; i <= 10; i++)
     {
         fprintf(f,"%d\n",i* numero);
